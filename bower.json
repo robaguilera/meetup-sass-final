@@ -1,0 +1,13 @@
+{
+  "name": "meetup-sass-files-virgin",
+  "version": "1.0.0",
+  "description": "Bower File for our Bourbon dependencies",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

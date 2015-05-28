@@ -1,0 +1,6 @@
+header {
+	@include outer-container(100%);
+	background-color: transparent;
+	background: linear-gradient(to bottom, #DBDEE0, #FFFFFF);
+	height: 100px;
+}
