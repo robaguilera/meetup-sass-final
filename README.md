@@ -4,13 +4,21 @@ This is a starter project template that we will use to create a working Sass and
 
 ## Project Setup  
 
-1. Clone the repo 
+1. Clone the repo and install bower
 
 ~~~
-git clone https://github.com/robertaguilerajr/grunt-sass-starter.git
+git clone https://github.com/robertaguilerajr/grunt-sass-starter-virgin.git
+npm install bower
 ~~~
 
-2. Install Node dependencies 
+2. Initialize the bower and package json files
+
+~~~
+npm init
+bower init
+~~~
+
+3. Install Node dependencies 
 
 ~~~
 $ npm install grunt-sass --save-dev
@@ -18,7 +26,7 @@ $ npm install grunt-contrib-watch --save-dev
 $ npm install grunt-contrib-connect --save-dev
 ~~~
 
-3. Install Bower dependencies
+4. Install Bower dependencies
 
 ~~~
 $ bower install bourbon
